@@ -12,17 +12,8 @@ export const useFetch = (url) => {
     }
 
     useEffect(() => {
-        let isCancelled = false;
-        if(!isCancelled){
-            getData();
-        }
-
-        // cleanup function
-        return () => {
-            isCancelled = true;
-        }
-
-    }, [url])
+        getData();
+    },[url])
     return {loading,data}
 }
 

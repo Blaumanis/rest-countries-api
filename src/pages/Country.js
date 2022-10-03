@@ -9,7 +9,7 @@ function Country({getCountryName}) {
   const {isLight, numberWithCommas} = useContext(GlobalContext)
 
   const countryName = useParams();
-  const {data,loading} = useFetch(`https://restcountries.com/v2/name/${countryName.countryName}?fullText=true`);
+  const {data} = useFetch(`https://restcountries.com/v2/name/${countryName.countryName}?fullText=true`);
   const [country,setCountry] = useState(data);
   useEffect(() => {
       setCountry(data);
