@@ -17,8 +17,15 @@ This is a solution to the [REST Countries API with color theme switcher](https:/
 - [React Router](https://reactrouter.com/en/main) - NPM package
 - [React](https://reactjs.org/) - JS library
 
-### Screenshot
+### Screenshots
 
 ![](./src/assets/screenshot-1.png)
 
 ![](./src/assets/screenshot-2.png)
+
+### What I learned
+
+- How to implement context API - so that state and functions which I provided are accessible with the all the components which are wrapped inside the this context API
+- Rect Outlet - used this feature which is provided from React router package to share <Header/> component for all my created pages for this project. Basically created <SharedLayout/> component which is passed to the Route as element, and then nesting other pages inside this Route so that they will share this <Header/> component.
+- 
+-
