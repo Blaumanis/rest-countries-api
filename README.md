@@ -20,4 +20,5 @@ This is a solution to the [REST Countries API with color theme switcher](https:/
 ### Screenshot
 
 ![](./src/assets/screenshot-1.png)
+
 ![](./src/assets/screenshot-2.png)
